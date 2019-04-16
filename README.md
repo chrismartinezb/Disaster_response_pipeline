@@ -72,12 +72,17 @@ The initial dataset contains 26,216 pre-labelled tweets and messages from real-l
 
 ## File description.
 
-[App](https://github.com/chrismartinezb/Game-of-thrones-analysis/blob/master/Final_Pipeline.ipynb): The whole process from data preparation and analysis to modeling and scoring.
+[app](https://github.com/chrismartinezb/Disaster_response_pipeline/tree/master/app): HTML templates for the web app and run.py that starts the webapp.
 
-[Data](https://github.com/chrismartinezb/Game-of-thrones-analysis/blob/master/GoT%20dialogue%20generator.ipynb):  ETL pipeline used to process data in preparation for model building.
+[data](https://github.com/chrismartinezb/Disaster_response_pipeline/tree/master/data):  ETL pipeline used to process data in preparation for model building.
 
-[Models](https://github.com/chrismartinezb/Game-of-thrones-analysis/tree/master/GoT): All raw form of chapter scripts obtained from [Genius.com](https://genius.com/artists/Game-of-thrones).
+[models](https://github.com/chrismartinezb/Disaster_response_pipeline/tree/master/models): The Machine Learning pipeline used to fit, tune, evaluate, and export the model to a Python pickle
  
 
 ## Licensing, Authors, Acknowledgements
-I have to give credit to all the volunteers at Genius for transcribing the dialogues as well as to [Paras Chopra](https://towardsdatascience.com/generating-new-ideas-for-machine-learning-projects-through-machine-learning-ce3fee50ec2) and [Daniel E. Licht](https://lichtphyz.github.io/) whose work is the base of this project. Apart from that feel free to use the code and files as you wish.
+
+- To [Udacity](https://www.udacity.com/) for providing the starter code as part of their Data Sciencde Nanodegree program.
+
+- To  [Figure Eight](https://www.figure-eight.com/) for providing the dataset.
+
+For the remaining code, feel free to use it as you wish.
