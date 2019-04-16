@@ -56,12 +56,25 @@ The initial dataset contains 26,216 pre-labelled tweets and messages from real-l
  'cold',
  'other_weather',
  'direct_report'
+ 
+ ## Instructions 
+
+1. Run the following commands in the project's root directory to set up your database and model:
+- To run ETL pipeline that cleans data and stores in database `data/disaster_messages.csv data/disaster_categories.csv` data/DisasterResponse.db
+
+- To run ML pipeline that trains classifier and saves python `models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+2.Run the following command in the app's directory to run your web app. `python run.py`
+
+3. Go to `http://0.0.0.0:3001/`
+
+
 
 ## File description.
 
 [App](https://github.com/chrismartinezb/Game-of-thrones-analysis/blob/master/Final_Pipeline.ipynb): The whole process from data preparation and analysis to modeling and scoring.
 
-[Data](https://github.com/chrismartinezb/Game-of-thrones-analysis/blob/master/GoT%20dialogue%20generator.ipynb): Using a pre trained model to generate random GoT dialogues. 
+[Data](https://github.com/chrismartinezb/Game-of-thrones-analysis/blob/master/GoT%20dialogue%20generator.ipynb):  ETL pipeline used to process data in preparation for model building.
 
 [Models](https://github.com/chrismartinezb/Game-of-thrones-analysis/tree/master/GoT): All raw form of chapter scripts obtained from [Genius.com](https://genius.com/artists/Game-of-thrones).
  
